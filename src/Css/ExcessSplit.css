@@ -1,0 +1,33 @@
+.point-calculation-table {
+  width: 100%;
+  margin-inline: 2%;
+  margin-top: 1%;
+  background-color: rgb(209, 219, 219);
+  border-radius: 5px;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  width: 5%;
+  color: blue;
+  margin-left: 1%;
+}
+
+.section-data {
+  display: flex;
+  margin-left: 2%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-data-part {
+  width: 30%;
+}
+
+.data {
+  color: blue;
+}

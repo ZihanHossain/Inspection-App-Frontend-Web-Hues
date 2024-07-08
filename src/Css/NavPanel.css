@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.nav-section {
+  width: 15%;
+  background-color: #e9f1fa;
+  /* border-top-right-radius: 30px; */
+}
+
+@media (max-width: 1366px) {
+  .nav-section {
+    font-size: 12px;
+  }
+}
+
+.nav-userName {
+  display: flex;
+  padding: 10%;
+  padding-left: 7%;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  padding: 5%;
+  padding-left: 10%;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media (max-width: 1366px) {
+  .nav-link {
+    padding: 4%;
+  }
+}
+
+.nav-link-dropdown {
+  display: flex;
+  padding: 5%;
+  padding-left: 15%;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-link-dropdown:hover {
+  background-color: beige;
+}
+
+.nav-link:hover {
+  background-color: beige;
+}
+
+.nav-link-text {
+  margin-left: 5%;
+  color: #008000;
+}
+
+.nav-link-selected {
+  display: flex;
+  padding: 5%;
+  padding-left: 10%;
+  align-items: center;
+  text-decoration: none;
+  background-color: white;
+  border-right: 5px solid #00abe4; /* Added 'solid' and '1px' for example */
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+}

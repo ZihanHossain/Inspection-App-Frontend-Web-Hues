@@ -1,0 +1,24 @@
+.table-section-add-machines {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.table-section-edit-inspection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.table-section-edit-gsm-shade {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-section-add-machines {
+  margin-top: 10%;
+}
+
+.info-table-add-machines {
+  margin: 5% 3%;
+}

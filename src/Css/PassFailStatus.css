@@ -1,0 +1,64 @@
+.bottom-section-passfail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2%;
+  padding-top: 0.5%;
+}
+
+.batch-number-passfail {
+  display: flex;
+  width: 52%;
+}
+
+.report-section-passfail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.report-head-section-passfail {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 0.6%;
+}
+
+.report-head-left-section-pasfail {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 700px;
+}
+
+.report-head-right-section-pasfail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.data-block-passfail {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.data-block-title-passfail {
+  font-weight: bold;
+}
+
+.batch-number-dropdown-passfail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .dropdown-passfail {
+  width: 100%;
+} */
