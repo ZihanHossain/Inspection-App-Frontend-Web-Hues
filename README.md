@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# QMS Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the **frontend web application** for the **QMS (Quality Management System)**, designed for managing both **Finished Fabric Inspection** and **Greige Fabric Inspection** processes.
 
-## Available Scripts
+Inspection activities are primarily performed in the mobile application. After inspections are completed, the collected data is displayed, managed, and processed in this web application.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Finished Fabric Inspection
+- View the status of each roll.
+- Edit inspection results for rolls.
+- Delete all inspection data at once.
+- Permanently delete a roll.
+- Place rolls on hold to exclude them from the final report.
+- Add excess rolls found beyond the initial planning data from the SQ planning application.
+- Add **GSM** values to rolls.
+- Assign **shades** to rolls.
+- Record the number of high defects.
+- Review and override the **pass/fail decision** (automatically determined, but users can add comments and see full details in one place).
+- Access various reports.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Reports for Finished Fabric
+1. 4-Point Inspection by Batch
+2. 4-Point Inspection by Roll
+3. Machine-wise Report
+4. GSM Report
+5. Roll-wise Final Inspection Report (without excess)
+6. Roll-wise Final Inspection Report (with excess)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Greige Fabric Inspection
+- Add **GSM** values.
+- View roll status.
+- Access related reports.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Configuration
+- Add new users.
+- Register machines in the system.
+- Assign user permissions for specific screens (pages without permission remain inaccessible even after login).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Purpose
+This frontend ensures that inspection data is easily accessible, editable, and reportable, while providing configuration tools for admins to manage users, machines, and access rights effectively.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
